@@ -9,10 +9,14 @@
 <body>
     <div class="body">
     <div class="container">
-    <form name="cal" >
-<input  type="text" name="text" id="screen" >
+        <div class="screen">
+    <form name="cacl" >
+<input  type="text" name="text" id="screen1" disabled >
     </form>
-   
+    <form name="cal" >
+        <input  type="text" name="text" id="screen" >
+            </form>
+        </div>
 <div class="buttons">
     <button id="butt" onclick="document.cal.text.value=Math.sign(document.cal.text.value) ">
 Sign
@@ -92,13 +96,13 @@ o
 
 </div>
 <div class="buttons1">
-    <button id="butt" onclick="document.cal.text.value=''">
+    <button id="butt" onclick="document.cal.text.value='',document.cacl.text.value=''">
 C
     </button>
     <button id="butt" onclick="del()">
 DEL
     </button>
-    <button id="butt" onclick="document.cal.text.value=eval(document.cal.text.value)">
+    <button id="butt" onclick="solve()">
 =
     </button>
 </div>
@@ -109,6 +113,12 @@ DEL
 function del() {
     var x= document.getElementById('screen').value;
     document.getElementById('screen').value =x.substr(0,x.length-1);
+}
+function solve() {
+    var x = document.getElementById('screen').value;
+    var y = eval(x)
+    document.getElementById('screen1').value= y
+    document.getElementById('screen').value = '';
 }
 </script>
 </body>

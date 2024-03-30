@@ -1,0 +1,178 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#background{
+    width: 100%;
+    object-fit: fill;
+    position: absolute;
+    z-index: -1;
+}
+.container{
+    max-width:600px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableContainer{
+    width: 100%;
+background-image: url('paper.gif');
+padding: 10px 0px;
+}
+.table{
+width: 100%;
+border: 1px solid;
+padding: 5px;
+}
+
+.screen1{
+    width: 100%;
+    padding: 40px 10px;
+    padding-bottom: 3px;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: rgb(218, 220, 221);
+}
+
+.screen2{
+    width: 100%;
+    padding: 10px 10px;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: rgb(218, 220, 221);
+}
+.screen3{
+    width: 100%;
+    padding: 10px 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(218, 220, 221);
+}
+
+.tableButton{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 8px;
+}
+#button{
+    width: 100%;
+    /* padding: 10px 10px; */
+    border: none;
+    outline: none;
+    background-color: rgb(228, 230, 231);
+    border-radius: 100px;
+}
+#button2{
+    width: 100%;
+    font-size:medium;
+    padding: 8px ;
+    border: none;
+    outline: none;
+    background-color: rgb(228, 230, 231);
+     border-radius: 100px;
+}
+#button1{
+    width: 100%;
+    font-size: x-large;
+    padding: 4px ;
+    border: none;
+    outline: none;
+    background-color: rgb(228, 230, 231);
+     border-radius: 100px;
+}
+#button:hover {
+    background-color: rgb(162, 229, 250);
+}
+#button1:hover {
+    background-color: rgb(162, 229, 250);
+}
+#button2:hover {
+    background-color: rgb(162, 229, 250);
+}
+#button:active {
+    background-color: rgb(72, 146, 168);
+}
+#button1:active {
+    background-color: rgb(72, 146, 168);
+}
+#button2:active {
+    background-color: rgb(72, 146, 168);
+}
+
+@media only screen and (max-width:835px) {
+    .tableContainer{
+        width: 40%;
+    }
+   
+}
+@media only screen and (max-width:655px) {
+    .tableContainer{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    #background{
+        display: none;
+    }
+    .container{
+        max-width:800px;
+    }
+    .tableContainer{
+        width: 100%;
+        height: 100%;
+    }
+   
+    .table{
+        width: 100%;
+        border: none;
+        padding: 5px;
+        }
+        .tableButton{
+            padding: 20px 0px;
+            column-gap: 15px;
+            row-gap: 10px;
+        }
+        #button{
+            padding: 15px 0px;
+font-size: medium;
+        }
+        #button2{
+            padding: 10px 0px ;
+            font-size: medium;
+        }
+        #button1{
+            padding: 10px 0px ;
+            font-size: x-large;
+        }
+        
+}
+@media only screen and (max-width:363px) {
+    .tableContainer{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:321px) {
+    .tableButton{
+        column-gap: 5px;
+    }
+    #button{
+        width: 100%;
+        padding: 10px 10px;
+    }
+}

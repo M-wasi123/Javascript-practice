@@ -22,7 +22,7 @@ form{
     flex-direction: column;
 }
 .screen{
-    background-color: rgb(245, 243, 243);
+    background-color: white;
 }
 #screen1{
     width: 100%;

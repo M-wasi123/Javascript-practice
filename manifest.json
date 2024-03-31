@@ -4,10 +4,16 @@
     
 "icons":[
 {
-  "src":"",
-  "type":"",
-  "size":"",
-"purpose":""
+  "src":"/image/icon.jpg",
+  "type":"icon/jpg",
+  "size":"200X200",
+"purpose":"any maskable"
+},
+{
+  "src":"/image/icon1.jpg",
+  "type":"icon/jpg",
+  "size":"512X512",
+"purpose":"any maskable"
 }
 ],
 "start_url":"/index.html",

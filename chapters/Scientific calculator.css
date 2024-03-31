@@ -79,15 +79,12 @@ text-align: right;
 
 
 @media only screen and (max-width:460px) {
-    .body{
-        background-color: rgb(241, 240, 240);
-    }
     .container{
      height: 100%;
     }
     .screen{
-        background-color: white;
-        padding: 50px 0px;
+        background-color: rgb(241, 240, 240);
+        padding: 40px 0px;
     }
 
     .buttons{

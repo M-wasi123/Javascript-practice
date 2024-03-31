@@ -81,6 +81,7 @@ text-align: right;
 @media only screen and (max-width:460px) {
     .container{
      height: 100%;
+     background-color: rgb(241, 240, 240);
     }
     .screen{
         background-color: rgb(241, 240, 240);

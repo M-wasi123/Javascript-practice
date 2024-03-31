@@ -32,7 +32,7 @@ Tan
     <button id="butt" onclick="log()">
 log
     </button>
-    <button id="butt" onclick="pow()">
+    <button id="butt" class="but">
 x<sup>2</sup>
     </button>
     <button id="butt" onclick="pow()">
@@ -141,16 +141,17 @@ function log() {
     document.getElementById('screen').value = '';
 }
 
-function pow() {
+var power = document.querySelector('.but')
+power.addEventListener('click', function () {
     var x = document.getElementById('screen').value;
-    var y = Math.pow(x,2)
+    var y = Math.pow(x, 2)
     document.getElementById('screen1').value= y
     document.getElementById('screen').value = '';
-}
+})
 
 function pow() {
     var x = document.getElementById('screen').value;
-    var y = Math.pow(x)
+    var y = Math.pow(x, 3)
     document.getElementById('screen1').value= y
     document.getElementById('screen').value = '';
 }

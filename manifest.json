@@ -1,0 +1,18 @@
+{
+    "short_name":"MATH",
+    "name":"Math Application",
+    
+"icons":[
+{
+  "src":"",
+  "type":"",
+  "size":"",
+"purpose":""
+}
+],
+"start_url":"/index.html",
+  "background_color":"#3367D6",
+  "display":"standalone",
+  "theme_color":"white",
+  "discription":"Coding With Wasi" 
+}

@@ -15,7 +15,7 @@ align-items: center;
 .container{
     max-width: 450px;
     width: 100%;
-    box-shadow: 5px 5px 5px 7px rgb(204, 204, 204);
+    box-shadow: 5px 5px 5px 7px rgb(241, 240, 240);
 }
 form{
     display: flex;
@@ -49,6 +49,7 @@ text-align: right;
     column-gap: 20px;
     row-gap: 10px;
     padding: 10px;
+    background-color: rgb(241, 240, 240)
 }
 .buttons1{
     width: 100%;
@@ -57,6 +58,7 @@ text-align: right;
     column-gap: 20px;
     padding: 0px 10px;
     padding-bottom: 10px;
+    background-color: rgb(241, 240, 240);
 }
 #butt{
     padding: 5px 0px;

@@ -70,6 +70,14 @@ text-align: right;
     background-color: rgb(221, 228, 233);
     box-shadow: 1px 2px 2px 1px  rgb(211, 211, 211);
 }
+#butt1{
+    padding: 5px 0px;
+    border-radius: 20%;
+    outline: none;
+    border: none;
+    background-color: rgb(221, 228, 233);
+    box-shadow: 1px 2px 2px 1px  rgb(211, 211, 211);
+}
 #butt:hover{
     background-color: rgb(196, 228, 228);
 }
@@ -82,28 +90,54 @@ text-align: right;
 @media only screen and (max-width:460px) {
     .container{
      height: 100%;
-     background-color: rgb(241, 240, 240);
+     background-color: rgb(255, 255, 255);
+    }
+    form{
+        background-color: rgb(255, 255, 255);
     }
     .screen{
-        background-color: rgb(241, 240, 240);
+        background-color: rgb(255, 255, 255);
         padding: 40px 0px;
     }
-
+    #screen1{
+        background-color: rgb(255, 255, 255);
+    }
+    #screen{
+        background-color: rgb(255, 255, 255);
+    }
     .buttons{
         width: 100%;
         display: grid;
         grid-template-columns: auto auto auto auto;
+        justify-content: center;
         text-align: center;
-        column-gap: 20px;
+        column-gap: 30px;
         row-gap: 15px;
-        padding: 5px;
+        padding: 5px 0px;
+        background-color: rgb(255, 255, 255);
     }
     .buttons1{
         width: 100%;
         display: grid;
         grid-template-columns: auto auto auto ;
-        column-gap: 20px;
-        padding: 10px 5px;
+        justify-content: center;
+        column-gap: 35px;
+        padding: 10px 0px;
         padding-bottom: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+    #butt{
+        width: 100%;
+        padding: 20px;
+        border-radius: 50%;
+        background-color: rgb(234, 236, 236);
+        box-shadow: 1px 2px 5px 2px  rgb(189, 188, 188);
+    }
+    #butt1{
+        width: 100%;
+        padding: 25px;
+        border-radius: 50%;
+        background-color: rgb(234, 236, 236);
+        box-shadow: 1px 2px 5px 2px  rgb(189, 188, 188);
     }
 }

@@ -108,18 +108,31 @@ font-size: x-large;
         
         width: 100%;
         height: 100%;
-        display: block;
-        
+        display: block;    
     }
     .container{
         max-width: 450px;
         width: 100%;
     }
-    #butt:focus{
+    
+.buttons{
+    row-gap: 5px;
+}
+.buttons1{
+  padding: 5px 20px;
+    padding-bottom: 10px;
+}
+#butt{
+    font-size: large;
+}
+    #butt:touch-action{
         background-color: rgb(245, 248, 248);
         color: black;
     }
-    #butt1:focus{
+    #butt1{
+        font-size: large;
+    }
+    #butt1:touch-action{
         background-color: rgb(245, 248, 248);
         color: black;
     }

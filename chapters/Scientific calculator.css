@@ -116,10 +116,10 @@ font-size: x-large;
     }
     
 .buttons{
-    row-gap: 5px;
+    row-gap: 0px;
 }
 .buttons1{
-  padding: 5px 20px;
+  padding: 0px 20px;
     padding-bottom: 10px;
 }
 #butt{

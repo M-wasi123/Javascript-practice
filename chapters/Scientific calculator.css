@@ -76,7 +76,7 @@ font-size: x-large;
     border: none;
     background-color: rgb(20, 20, 20);
     color: white;
-    font-size: medium;
+    font-size: 20px;
     text-align: center;
     line-height: 50px;
 }
@@ -87,7 +87,7 @@ font-size: x-large;
     border: none;
     background-color: rgb(20, 20, 20);
     color: white;
-    font-size: medium;
+    font-size: x-large;
     padding-bottom: 10px;
     text-align: center;
     line-height: 50px;
@@ -122,12 +122,7 @@ font-size: x-large;
   padding: 0px 20px;
     padding-bottom: 10px;
 }
-#butt{
-    font-size: 20px;
-}
-    #butt1{
-        font-size: x-large;
-    }
+
     #butt:hover{
         background-color: rgb(20, 20, 20);
         color: rgb(248, 241, 229);

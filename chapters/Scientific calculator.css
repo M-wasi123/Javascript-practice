@@ -125,15 +125,15 @@ font-size: x-large;
 #butt{
     font-size: large;
 }
-    #butt:touch-action{
-        background-color: rgb(245, 248, 248);
-        color: black;
-    }
     #butt1{
         font-size: large;
     }
-    #butt1:touch-action{
-        background-color: rgb(245, 248, 248);
-        color: black;
+    #butt:hover{
+        background-color: rgb(20, 20, 20);
+        color: rgb(248, 241, 229);
+    }
+    #butt1:hover{
+        background-color: rgb(20, 20, 20);
+        color: rgb(248, 241, 229);
     }
 }

@@ -1,24 +1,22 @@
 {
-    "short_name":"MATH",
-    "name":"Math Application",
-    
-"icons":[
-{
-  "src":"/image/icon.jpg",
-  "type":"icon/jpg",
-  "size":"200X200",
-"purpose":"any maskable"
-},
-{
-  "src":"/image/icon1.jpg",
-  "type":"icon/jpg",
-  "size":"512X512",
-"purpose":"any maskable"
-}
-],
-"start_url":"/index.html",
-  "background_color":"#3367D6",
+  "name":"Math Expression",
+  "short_name":"MES",
+  "start_url":"index.html",
   "display":"standalone",
-  "theme_color":"white",
-  "discription":"Coding With Wasi" 
+  "background_color":"#5900b3",
+  "theme_color":"black",
+  "scope": ".",
+  "description":"This is a Math Expression.",
+  "icons":[
+  {
+  "src":"images/icon-192x192.png",                     
+  "sizes":"192x192",
+  "type":"image/png"
+  },
+  {
+  "src":"images/icon-512x512.png",
+  "sizes":"512x512",
+  "type":"image/png"
+  }
+]
 }

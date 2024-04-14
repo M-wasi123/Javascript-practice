@@ -5,7 +5,8 @@ var appVersion = 'v1.00';
 var files = [
     './',
     './index.html',
-    'style.css'
+    'style.css',
+    'manifest.json'
 ]
 
 // Install

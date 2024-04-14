@@ -182,5 +182,18 @@ function solve() {
 
 
 </script>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+        .then(res =>{
+            console.info("SW Registered");
+        })
+        .catch(err =>{
+            console.error('Error in Registring SW', err)
+        })
+    }else{
+        console.log('SW not supported')
+    }
+</script>
 </body>
 </html>
